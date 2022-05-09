@@ -1,3 +1,3 @@
-# Why Program
+# why Program
 
 print("hello world")
