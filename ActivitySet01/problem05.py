@@ -14,6 +14,6 @@ if hrs>40:
     otp=(hrs-40.0) *(rte*0.5)
     p=reg+otp
 else:
-    p=hrs*r3te
+    p=hrs*rte
 
 print("Pay", p)
