@@ -8,7 +8,8 @@ while True:
 
     if num == "done":
         break
-
+    num1=float(num)
+    print(num1)
     # ...
 
     print(num)
