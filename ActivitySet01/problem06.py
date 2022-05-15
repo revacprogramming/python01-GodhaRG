@@ -12,6 +12,8 @@ while True:
     print(num1)
     num2=float(num)
     print(num2)
+    num3=float(num)
+    print(num3)
     # ...
 
     print(num)
