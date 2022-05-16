@@ -1,5 +1,5 @@
 # Loops & Iterators
-
+a=[]
 largest = None
 smallest = None
 
@@ -7,15 +7,19 @@ while True:
     num = input("Enter a number? ")
 
     if num == "done":
-        break
-    num1=float(num)
-    print(num1)
-    num2=float(num)
-    print(num2)
-    num3=float(num)
-    print(num3)
-    # ...
+        break 
+    else:
+        try:
+            num=int(num)
+            a.append(num)
+            largest=max(a)
+            smallest=min(a)
+        except:
+            print("Invalid Input")
 
-    print(num)
+    
+for i in a:
+    print(i)
+print("Maximum is ", largest)
+print("Minimum is ",smallest)
 
-print("Maximum", largest)
