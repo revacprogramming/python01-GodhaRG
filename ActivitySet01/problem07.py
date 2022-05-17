@@ -9,3 +9,4 @@ a=text.find('0.8475')
 print(a)
 print(text[a:])
 
+
