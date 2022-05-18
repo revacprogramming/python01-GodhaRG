@@ -1,3 +1,2 @@
-# Lists
-
-filename = "dataset/romeo.txt"
+#Lists
+filename="dataset/romeo.txt"
