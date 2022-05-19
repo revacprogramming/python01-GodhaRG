@@ -14,5 +14,5 @@ for line in fh:
     result=result+float(x[1])
     n=n+1
 average=result/n
-print("Average spam confidence: " ,average)   
+print("Average spam  confidence: " ,average)   
 
