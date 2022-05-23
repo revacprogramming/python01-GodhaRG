@@ -8,4 +8,4 @@ for i in fh.readlines():
     for j in i.split():
         if  j not in lst:
              lst.append(j)
-print(sorted(lst))
+print(sorted( lst))
