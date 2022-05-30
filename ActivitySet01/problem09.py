@@ -1,7 +1,6 @@
 #Lists
 filename= "dataset/romeo.txt"
-fname = input("Enter file name: ")
-fh = open(fname)
+fh = open(filename)
 x=fh.readlines()
 lst = list()
 for i in fh.readlines():
