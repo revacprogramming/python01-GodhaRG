@@ -1,7 +1,7 @@
 # Functions
 
 
-def computepay(h, r):
+def computepay(hrs, rte):
 
  if  hrs>40:
     reg=rte*hrs
