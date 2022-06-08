@@ -94,3 +94,16 @@ b=str(input("enter a string"))
 c=b.split()
 print(c[0])
 print(c[1])
+#program 8
+n=int(input("enter the number of elements you want in fibonacci series ")) #n=10
+a=0
+b=1
+i=1
+while(i<=n):
+        sum=a+b
+        a=b
+        b=sum
+        i=i+1
+        print(a)
+print ("fibonacci series=",a)
+
