@@ -46,3 +46,5 @@ a5=s2.isdisjoint({4})
 print(a5)
 print(s3.issubset(s2))#or can use<=
 print({1,2}.issuperset({2,3}))#or can use>=
+d={(1,2,3):"hello"}
+print(d[(1,2,3)])#tuple as key in dictionary

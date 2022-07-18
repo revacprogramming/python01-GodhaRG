@@ -106,4 +106,12 @@ while(i<=n):
         i=i+1
         print(a)
 print ("fibonacci series=",a)
-
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+c=int(input("enter the number"))
+if a>b and a>c:
+    print("largest",a)
+elif b>c:
+    print("largst",b)
+else :
+    print("largest",c)
