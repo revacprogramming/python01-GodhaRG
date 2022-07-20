@@ -36,7 +36,7 @@ s1=student("R21EF220","GODHA")
 s1.name="bheema"
 del s1.srn
 student.display(s1)
-class computer:
+class computer: #encapsulation
     def __init__(self):
         self.__maxprice=100
     def sell(self):
@@ -48,7 +48,7 @@ c1.sell()
 # cannot modify private member c1.__maxprice(1000)
 c1.setprice(1000)
 c1.sell()
-class polygon:
+class polygon:#abstraction
     def sides(self):
         pass
 class triangle(polygon):
@@ -61,3 +61,40 @@ t=triangle()
 t.sides()
 p=pentagon()
 p.sides()
+#inheritance
+class User:
+    def __init__(self,name):
+        self.name=name
+    def printname(self):
+        print("Name =" +self.name)
+class programmer(User):
+    def __init__(self,name):
+        self.name=name
+    def display(self):
+        print("Programming Pyhton")
+u1=User("shiva")
+u1.printname()
+u2=programmer("supreeth")
+u2.printname()
+u2.display()
+#polymorphism-same function but different behaviour
+class Parrot:
+    def fly(self):
+        print("parrots can fly")
+    def swim(self):
+        print("parrots can't swin")
+class Penguin:
+    def fly(self):
+        print("penguin cannot fly")
+    def swim(self):
+        print("penguin can swin")
+#common interface
+def flying_test(bird):
+    bird.fly()
+    bird.swim()
+#instantiate objects
+p=Parrot()
+g=Penguin()
+#passing the object
+flying_test(p)
+flying_test(g)
